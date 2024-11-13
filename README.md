@@ -34,9 +34,10 @@ Facial recognition based attendance web application, designed for universities a
 
 ## Project Structure
 
-  university-attendance-system/ │ ├── app/ │ ├── main.py # Main application entry point │ ├── utils/ │ │ ├── handlers.py # Functions for user validation, registration, and attendance handling │ │ ├── face_recognition_utils.py # Facial recognition functions │ │ ├── preprocessing.py # Photo preprocessing and uploading │ │ ├── styles.py # CSS styling for the application │ ├── database.py # Database functions and queries │ └── README.md # Project documentation │ ├── static/ # Static files (e.g., images, CSS) ├── templates/ # HTML templates for the frontend └── requirements.txt # Python dependencies
+attendance_recognition/
+attendance_recognition/ # Main project directory ├── app/ # Application directory │ ├── main.py # Main application entry point │ ├── utils/ # Utility functions │ │ ├── init.py # Initializes the utils package │ │ ├── app_styles.css # CSS styling for the application ├── data/ # Data storage │ └── encodings/ # Encoded data for facial recognition ├── docs/ # Project documentation │ └── README.md # Additional project documentation ├── model/ # Machine learning model storage │ └── model.py # Model definitions and handling ├── scripts/ # Scripts for data processing and model setup │ ├── data_cleaning.py # Data cleaning procedures │ ├── init_database.py # Database initialization scripts │ └── train_model.py # Model training functions ├── tests/ # Unit and integration tests │ └── README.md # Test documentation ├── environment.yml # Conda environment setup ├── requirements.txt # Python dependencies ├── setup.py # Installation script ├── .gitignore # Files and directories to ignore in git ├── LICENSE # License file └── README.md # Primary project documentation
 
-## Technologies Used:
+## Technologies Used
 - Frontend: 
 - Backend: 
 - Facial Recognition: Amazon Rekognition for facial detection and authentication with a machine learning model
