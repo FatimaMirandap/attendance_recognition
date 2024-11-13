@@ -9,7 +9,7 @@ def main():
 
     st.title("Bienvenido al sistema de Registro de Asistencias")
     # Mostrar el logo de la universidad
-    logo_path = "C:\\Users\\Fatim\\Downloads\\HW9\\TRENDS\\APP FACE RECOGNITION\\App\\upy.png"  # Reemplaza con la ruta al archivo de logo
+    logo_path =  # Reemplaza con la ruta al archivo de logo
     st.image(logo_path, caption="Universidad Politécnica de Yucatán", use_column_width=True)
 
     role = st.selectbox("Selecciona tu perfil", ["Soy profesor", "Soy estudiante", "Soy estudiante sin registro"], key='role_select')
