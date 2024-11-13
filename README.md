@@ -34,8 +34,30 @@ Facial recognition based attendance web application, designed for universities a
 
 ## Project Structure
 
-attendance_recognition/
-attendance_recognition/ # Main project directory ├── app/ # Application directory │ ├── main.py # Main application entry point │ ├── utils/ # Utility functions │ │ ├── init.py # Initializes the utils package │ │ ├── app_styles.css # CSS styling for the application ├── data/ # Data storage │ └── encodings/ # Encoded data for facial recognition ├── docs/ # Project documentation │ └── README.md # Additional project documentation ├── model/ # Machine learning model storage │ └── model.py # Model definitions and handling ├── scripts/ # Scripts for data processing and model setup │ ├── data_cleaning.py # Data cleaning procedures │ ├── init_database.py # Database initialization scripts │ └── train_model.py # Model training functions ├── tests/ # Unit and integration tests │ └── README.md # Test documentation ├── environment.yml # Conda environment setup ├── requirements.txt # Python dependencies ├── setup.py # Installation script ├── .gitignore # Files and directories to ignore in git ├── LICENSE # License file └── README.md # Primary project documentation
+attendance_recognition/ # Main project directory 
+  ├── app/ # Application directory 
+    │ ├── main.py # Main application entry point 
+    │ ├── utils/ # Utility functions │ 
+    │ ├── init.py # Initializes the utils package │ 
+    │ ├── app_styles.css # CSS styling for the application 
+  ├── data/ # Data storage 
+    │ └── encodings/ # Encoded data for facial recognition 
+  ├── docs/ # Project documentation 
+    │ └── README.md # Additional project documentation 
+  ├── model/ # Machine learning model storage 
+    │ └── model.py # Model definitions and handling 
+  ├── scripts/ # Scripts for data processing and model setup 
+    │ ├── data_cleaning.py # Data cleaning procedures 
+    │ ├── init_database.py # Database initialization scripts 
+    │ └── train_model.py # Model training functions 
+  ├── tests/ # Unit and integration tests 
+  ├── environment.yml # Conda environment setup 
+  ├── requirements.txt # Python dependencies 
+  ├── setup.py # Installation script 
+  ├── .gitignore # Files and directories to ignore in git 
+  ├── LICENSE # License file 
+  └── README.md # Primary project documentation
+
 
 ## Technologies Used
 - Frontend: 
