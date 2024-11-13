@@ -1,0 +1,39 @@
+/* Fondo de la aplicación */
+.stApp {
+    background-color: #f4f6f8;
+}
+
+/* Título de la aplicación */
+h1 {
+    color: #2c3e50;
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+/* Texto general */
+.stTextInput label, .stButton button {
+    color: #34495e;
+    font-family: Arial, sans-serif;
+}
+
+/* Fondos de los contenedores y botones */
+.stButton button {
+    background-color: #2980b9;
+    color: white;
+    border-radius: 8px;
+    padding: 10px 20px;
+    border: none;
+}
+
+/* Botón al pasar el cursor */
+.stButton button:hover {
+    background-color: #1c598a;
+}
+
+/* Inputs de texto */
+.stTextInput input {
+    background-color: #ecf0f1;
+    color: #2c3e50;
+    border: 1px solid #bdc3c7;
+    border-radius: 5px;
+}
