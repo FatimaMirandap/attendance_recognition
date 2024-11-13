@@ -1,0 +1,12 @@
+# Python
+__pycache__/
+*.py[cod]
+.env
+*.pkl
+
+# Streamlit Cache
+.streamlit/
+
+# Sistema Operativo
+.DS_Store
+Thumbs.db
