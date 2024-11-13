@@ -2,7 +2,7 @@
 from utils import *
 
 # Configuración de la URL de conexión
-DATABASE_URL = "mysql+pymysql://admin:didiercosas5@student-attendance-db.cjs6q2qyupii.us-east-2.rds.amazonaws.com/studentattendancedb"
+DATABASE_URL = "mysql+pymysql://"
 
 # Crear el motor de conexión
 engine = create_engine(DATABASE_URL)
